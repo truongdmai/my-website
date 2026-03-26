@@ -1,1 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | TechBridge-AI</title>
+  <meta name="description" content="Book a free consultation with TechBridge-AI." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="brand"><img src="logo.png" alt="TechBridge-AI logo" class="logo" /></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="resources.html">Resources</a>
+        <a href="case-studies.html">Case Studies</a>
+        <a href="contact.html" class="nav-cta active">Book a Free Consultation</a>
+      </nav>
+    </div>
+  </header>
 
+  <main class="page-main">
+    <section class="page-hero" id="ai-audit">
+      <div class="container">
+        <p class="section-label">Contact</p>
+        <h1>Tell us about your project</h1>
+        <p class="page-hero-text">
+          Book a free consultation and let’s discuss how TechBridge-AI can help your business.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <div class="contact-info-card">
+          <h2>Start the conversation</h2>
+          <p>
+            Whether you need AI strategy, workflow automation, or a custom software solution,
+            we would love to learn more about your business.
+          </p>
+
+          <ul class="contact-list">
+            <li><strong>Contact:</strong> Truong Mai</li>
+            <li><strong>Phone:</strong> <a href="tel:14043887998">(404) 388-7998</a></li>
+            <li><strong>CTA:</strong> Book a Free Consultation</li>
+          </ul>
+        </div>
+
+        <form class="contact-form" action="#" method="post" enctype="multipart/form-data">
+          <h2>Tell Us About Your Project</h2>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="company">Company</label>
+              <input type="text" id="company" name="company" />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="help">What do you need help with?</label>
+            <textarea id="help" name="help" rows="5"></textarea>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="service">Service Interest</label>
+              <select id="service" name="service">
+                <option value="">Select one</option>
+                <option>AI Automation</option>
+                <option>Software Development</option>
+                <option>Custom Solution</option>
+                <option>AI Strategy</option>
+                <option>AI Enablement</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="budget">Budget Range</label>
+              <select id="budget" name="budget">
+                <option value="">Select one</option>
+                <option>Under $2,500</option>
+                <option>$2,500 - $5,000</option>
+                <option>$5,000 - $10,000</option>
+                <option>$10,000+</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="timeline">Timeline</label>
+              <select id="timeline" name="timeline">
+                <option value="">Select one</option>
+                <option>ASAP</option>
+                <option>Within 30 Days</option>
+                <option>1 - 3 Months</option>
+                <option>Just Exploring</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="referral">How did you hear about us?</label>
+              <input type="text" id="referral" name="referral" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="file">Upload Requirements</label>
+            <input type="file" id="file" name="file" />
+          </div>
+
+          <button type="submit" class="btn btn-primary full-width">Get Started</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-bottom">
+      <p>© 2026 TechBridge-AI. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
